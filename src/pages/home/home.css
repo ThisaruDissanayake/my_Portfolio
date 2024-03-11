@@ -3,15 +3,27 @@
     align-items: center;
     padding: 40px;
     height: 100vh;
+    z-index: 1;
 
 }
 
-.home__img{
+
+.home__img {
     height: 100%;
     object-fit: cover;
     border-radius: 30px;
-    box-shadow: 0 0 8px hsla(0,0%,0%,0.3);
-    z-index: 1;
+    box-shadow: 0 0 8px hsla(0, 0%, 0%, 0.3);
+    z-index: 0;
+    animation: moveUpDown 2s ease-in-out infinite; /* Add this animation property */
+}
+
+@keyframes moveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
 }
 
 .home__data{
@@ -44,6 +56,8 @@
     background-color: var(--first-color);
 }
 
+
+
 .home__discription{
     line-height: 2.125;
     margin-block: 16px 32px;
@@ -57,5 +71,6 @@
     top:-50%;
     left: -83%;
     transform: rotate(-15deg);
+    z-index: -1;
 
 }

@@ -1,7 +1,8 @@
 .portfolio__container{
     grid-template-columns: repeat(3,1fr);
-    width: 80%;
-    padding-left: 250px;
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .portfolio__item{
@@ -81,12 +82,13 @@
 }
 .modal__list{
     grid-template-columns: repeat(2,1fr);
-    row-gap: 10px;
+    row-gap: 10px !important;
     /* margin-bottom: 24px; */
 }
 .modal__list1{
     grid-template-columns: repeat(1,1fr);
     row-gap: 0px;
+    
     margin-bottom: 24px;
 }
 

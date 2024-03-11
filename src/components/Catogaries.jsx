@@ -10,7 +10,7 @@ const Catogories = ()=> {
             return(
                 <div className="catagory__box" key={index}>
                     <h3 className="catagory__no">{no}</h3>
-                    <p className="stats__title">{parse(title)}</p>
+                    <p className="stats__title1">{parse(title)}</p>
                 </div>
             )
         })}

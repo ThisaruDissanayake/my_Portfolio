@@ -1,5 +1,5 @@
 .nav__menu{
-    
+    z-index: 100;
     position: fixed;
     left: -100%;
     background-color: var(--container-color);
@@ -19,6 +19,10 @@
     column-gap: 24px;
     border-bottom: 1px solid var(--border-color);
     padding-block: 14px;
+}
+
+.darktheme .nav__link{
+    border-color: hsl(0,0%,20%);
 }
 
 .nav__icon,
@@ -45,6 +49,7 @@
     border-radius: 5px;
     background-color: var(--container-color);
     padding: 12px 10px;
+    z-index: 100;
 
 }
 
@@ -84,6 +89,7 @@
         right: 30px;
         display: flex;
         align-items: center;
+        z-index: 100;
        
 
     }

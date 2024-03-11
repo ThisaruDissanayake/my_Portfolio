@@ -117,7 +117,7 @@ export const personalInfo = [
   {
     id: 4,
     title: 'Nationality : ',
-    description: 'Buddhism',
+    description: 'Sinhalese',
   },
 
 
@@ -125,7 +125,7 @@ export const personalInfo = [
   {
     id: 6,
     title: 'Address : ',
-    description: '9 Ela,Mahanelubawa,Hidogama,Anuradhapura',
+    description: '9Ela,Mahanelubawa,Hidogama,Anuradhapura',
   },
 
   {
@@ -169,25 +169,29 @@ export const stats = [
   {
     id: 3,
     no: <FaFacebook />,
-    title: 'Facebook Account  <br /> thisaru.dissanayake.9',
+    title: 'Facebook Account  <br />',
+    title2:<a href='https://web.facebook.com/thisaru.dissanayake.9'>thisaru.dissanayake.9</a>
   },
 
   {
     id: 4,
     no: <FaLinkedin />,
-    title: 'LinkedIn Account  <br /> in/thisaru-dissanayake',
+    title: 'LinkedIn Account  <br />',
+    title2:<a href='https://www.linkedin.com/in/thisaru-dissanayake-666197212/'>in/thisaru-dissanayake</a>
   },
 
   {
     id: 5,
     no: <FaBehance />,
-    title: 'Behance Account  <br /> thisarudissanayake',
+    title: 'Behance Account  <br />',
+    title2:<a href='https://www.behance.net/thisarudissanayake'> thisarudissanayake</a>
   },
 
   {
     id: 6,
     no: <FaGithub />,
-    title: 'Github Account  <br /> /ThisaruDissanayake',
+    title: 'Github Account  <br /> ',
+    title2:<a href='https://github.com/ThisaruDissanayake'>/ThisaruDissanayake</a>
   },
 ];
 export const catogories = [
@@ -652,11 +656,11 @@ export const portfolio = [
         title: 'Link : ',
         desc: <a href="https://github.com/ThisaruDissanayake/Group_Project_4112_3912-The-Patient-Registration-System-" target="_blank" rel="noopener noreferrer">GitHub</a>,
       },
-      // {
-      //   icon: <FiExternalLink />,
-      //   title: 'Preview : ',
-      //   desc: <a href="https://drive.google.com/file/d/1R33yaYFBDViVFbCtpZDgAPb-R7XGaWht/view?usp=sharing" target="_blank" rel="noopener noreferrer">Vedio</a>,
-      // },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: <a href="https://drive.google.com/file/d/1GOLqfLTlEHuWil1byiTCFUO7eBnZ_YHu/view?usp=sharing" target="_blank" rel="noopener noreferrer">Vedio</a>,
+      },
       {
         
         desc1: 'Skilled WPF, C# developer with SQLite expertise, implementing MVVM. Collaborated on Patient Registration System, featuring advanced CRUD, automated billing, and robust testing.',
@@ -685,11 +689,11 @@ export const portfolio = [
         title: 'Link : ',
         desc: <a href="https://github.com/ThisaruDissanayake/Individual_Project_GUI_3912-Student-Manegment-System-" target="_blank" rel="noopener noreferrer">GitHub</a>,
       },
-      // {
-      //   icon: <FiExternalLink />,
-      //   title: 'Preview : ',
-      //   desc: <a href="https://drive.google.com/file/d/1R33yaYFBDViVFbCtpZDgAPb-R7XGaWht/view?usp=sharing" target="_blank" rel="noopener noreferrer">Vedio</a>,
-      // },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: <a href="https://drive.google.com/file/d/1ncsTDEOzP2j7476SNmMftDs2zDTHpqHs/view?usp=sharing" target="_blank" rel="noopener noreferrer">Vedio</a>,
+      },
       {
         
         desc1: 'Skilled Software Developer in WPF, C#, and OOP. Designed and implemented a streamlined Student Record Management System with MVVM architecture and robust CRUD operations.',

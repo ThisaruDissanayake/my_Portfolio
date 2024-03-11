@@ -6,12 +6,14 @@ import Home from './pages/home/Home'
 import Contact from './pages/contect/Contact'
 import Portfolio from './pages/portfolio/Portfolio'
 import About from './pages/about/About'
+import Themes from './components/Themes'
 
 
 function App() {
   return (
    <BrowserRouter>
    <Navbar/>
+   <Themes/>
    <Routes>
     <Route index element={<Home />}></Route>
     <Route path='about' element={<About />}/>
