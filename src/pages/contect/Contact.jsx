@@ -61,23 +61,26 @@ const Contact = ()=> {
                     </div>
                 </div>
 
-                <form  className="contact__form">
+                <form action="https://api.web3forms.com/submit" method="POST" className="contact__form">
                     <div className="form__input-group">
+                    <input type="hidden" name="access_key" value="c2ea2a58-dc3f-4fb8-85ac-c24568fa722d"/>
                         <div className="form__input-div">
-                            <input type="text" placeholder="Your Name" className="form__control" />
+                            <input type="text" placeholder="Your Name" name="name" className="form__control" />
                         </div>
                         <div className="form__input-div">
-                            <input type="email" placeholder="Your email" className="form__control" />
+                            <input type="email" placeholder="Your email" name="email" className="form__control" />
                         </div>
                         <div className="form__input-div">
-                            <input type="text" placeholder="Your Subject" className="form__control" />
+                            <input type="text" placeholder="Your Subject" name="subject" className="form__control" />
                         </div>
                     </div>
 
                     <div className="form__input-div">
                         <textarea
+                        name="massage"
                         placeholder="Your Message"
                         className="form__control textarea"
+                        required
                         >
 
                         </textarea>
