@@ -54,7 +54,15 @@ import  Tailwind from './assets/tailwind.png';
 import  Dart from './assets/dart.png';
 import  Postman from './assets/postman.png';
 
-
+import Flayer1 from './assets/A1.png';
+import Flayer2 from './assets/A2.png';
+import Flayer3 from './assets/A3.png';
+import Flayer4 from './assets/A4.png';
+import Flayer5 from './assets/A5.png';
+import Flayer6 from './assets/A6.png';
+import Flayer7 from './assets/A7.png';
+import Flayer8 from './assets/A8.png';
+import Flayer9 from './assets/A9.png';
 
 export const links = [
   {
@@ -77,12 +85,13 @@ export const links = [
     icon: <FaFolderOpen className='nav__icon' />,
     path: '/portfolio',
   },
-  // {
-  //   id: 4,
-  //   name: 'Behance',
-  //   icon: <FaFolderOpen className='nav__icon' />,
-  //   path: '/behance',
-  // },
+  {
+    
+    id: 4,
+    name: 'Behance',
+    icon: <FaBehance className='nav__icon' />,
+    path: '/behance',
+  },
 
   {
     id: 5,
@@ -732,6 +741,70 @@ export const portfolio = [
         desc1: 'UI/UX design for our Baby Vaccination Management Application! Crafted with precision using Figma, our design ensures a seamless and visually engaging experience for parents, healthcare professionals, and administrators. ',
       },
     ],
+  },
+];
+export const behance = [
+  {
+    id: 1,
+    img: Flayer1,
+    title: 'Machine Learning | Sentiment Analysis Project',
+    
+  },
+
+  {
+    id: 2,
+    img: Flayer2,
+    title: 'User App - Online Cosmetics Shop ',
+    
+  },
+
+  {
+    id: 3,
+    img: Flayer3,
+    title: 'Online Cosmetics Shop- Admin App',
+   
+  },
+
+  {
+    id: 4,
+    img: Flayer4,
+    title: '6G VISION Flyer Design',
+    
+  },
+
+  {
+    id: 5,
+    img: Flayer5,
+    title: 'Database Management| MySQL',
+   
+  },
+
+  {
+    id: 6,
+    img: Flayer6,
+    title: 'Mock UI UX',
+    
+  },
+
+  {
+    id: 7,
+    img: Flayer7,
+    title: 'Patient Registration System',
+    
+  },
+
+  
+  {
+    id: 8,
+    img: Flayer8,
+    title: 'Student Record Management System',
+  
+  },
+  {
+    id: 9,
+    img: Flayer9,
+    title: 'UI/UX of Baby Vaccination Management Application',
+   
   },
 ];
 

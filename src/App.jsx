@@ -7,6 +7,7 @@ import Contact from './pages/contect/Contact'
 import Portfolio from './pages/portfolio/Portfolio'
 import About from './pages/about/About'
 import Themes from './components/Themes'
+import Behance from './pages/Behance/Behance'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
     <Route path='about' element={<About />}/>
     <Route path='portfolio' element={<Portfolio />}/>
     <Route path='contact' element={<Contact />}/>
+    <Route path='behance' element={<Behance />}/>
    </Routes>
    </BrowserRouter>
   )
