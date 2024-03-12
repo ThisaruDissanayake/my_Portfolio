@@ -17,6 +17,8 @@ import Work5 from './assets/project-5.jpg';
 import Work6 from './assets/project-6.jpg';
 import Work7 from './assets/project-7.jpeg';
 import Work8 from './assets/project-8.jpeg';
+import Work9 from './assets/project-9.png';
+
 
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
@@ -697,6 +699,37 @@ export const portfolio = [
       {
         
         desc1: 'Skilled Software Developer in WPF, C#, and OOP. Designed and implemented a streamlined Student Record Management System with MVVM architecture and robust CRUD operations.',
+      },
+    ],
+  },
+  {
+    id: 9,
+    img: Work9,
+    title: 'UI/UX of Baby Vaccination Management Application',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'UI for Web',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Beas : ',
+        desc: 'Figma',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Link : ',
+        desc: <a href="https://www.figma.com/file/DdSegcEhC5qIfgxagnDeGg/SP" target="_blank" rel="noopener noreferrer">Figma</a>,
+      },
+      // {
+      //   icon: <FiExternalLink />,
+      //   title: 'Preview : ',
+      //   desc: <a href="https://drive.google.com/file/d/1ncsTDEOzP2j7476SNmMftDs2zDTHpqHs/view?usp=sharing" target="_blank" rel="noopener noreferrer">Vedio</a>,
+      // },
+      {
+        
+        desc1: 'UI/UX design for our Baby Vaccination Management Application! Crafted with precision using Figma, our design ensures a seamless and visually engaging experience for parents, healthcare professionals, and administrators. ',
       },
     ],
   },
