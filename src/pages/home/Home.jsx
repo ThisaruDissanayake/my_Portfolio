@@ -24,7 +24,7 @@ const Home = () => {
 
             <div className="home__content">
                 <div className="home__data">
-                    <h1 className="home__title"><span>I'm Maleesha Dissanayake.</span>    {roles[roleIndex]
+                    <h1 className="home__title"><span>I'm Thisaru Dissanayake.</span>    {roles[roleIndex]
                                 .split("")
                                 .map((letter, index) => (
                                     <sp
