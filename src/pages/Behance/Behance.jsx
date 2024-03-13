@@ -12,7 +12,7 @@ const Behance = ()=> {
                         More About me{'  '}
                         <span className="button__icon"><FaArrowRight/></span>
                     </Link> */}
-            <a href='https://www.behance.net/thisarudissanayake'><button  className="button" style={{marginLeft: '580px',marginBottom:'20px'}}>See my Behance for More Details{" "}<span className="button__icon"><FaArrowRight/></span></button></a>
+            <a href='https://www.behance.net/thisarudissanayake'><button  className="button1" >See my Behance for More Details{" "}<span className="button1__icon"><FaArrowRight/></span></button></a>
             {/*  */}
             <div className="behance__container grid">
                 {behance.map((item)=>{

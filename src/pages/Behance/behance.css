@@ -1,3 +1,10 @@
+.behance{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto; 
+}
 .behance__container{
     grid-template-columns: repeat(3,1fr);
     width: 100%;
@@ -62,6 +69,66 @@
     padding: 32px;
     border-radius: 10px;
     position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+    margin-bottom: 40px;
+    
+}
+
+.button1{
+    display: inline-block;
+    color: var(--title-color);
+    border: 1px solid var(--first-color);
+    padding: 15px 70px 15px 35px;
+    border-radius: 35px;
+    font-family: var(--second-font);
+    font-size: var(--small-font-size);
+    font-weight: var(--weight-500);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.25s ease-in-out;
+}
+
+.button1:hover{
+    color: var(--text-white) ;
+}
+
+.button1::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: var(--first-color);
+    transform: translateX(100%);
+    z-index: -1;
+    transition: all 0.3s ease-out;
+}
+
+.button1:hover::before{
+    transform: translateX(0);
+}
+
+.button1__icon{
+    background-color: var(--first-color);
+    position: absolute;
+    inset-block: -2px;
+    right: 0;
+    width: 55px;
+    border-radius: 50%;
+    color: var(--text-white);
+    font-size: var(--large-font-size);
+    text-align: center;
+    line-height: 60px;
+
 }
 
 

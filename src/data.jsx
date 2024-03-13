@@ -63,6 +63,13 @@ import Flayer6 from './assets/A6.png';
 import Flayer7 from './assets/A7.png';
 import Flayer8 from './assets/A8.png';
 import Flayer9 from './assets/A9.png';
+import Flayer10 from './assets/A10.png';
+import Flayer11 from './assets/A11.png';
+import Flayer12 from './assets/A12.png';
+import Flayer13 from './assets/A13.png';
+import Flayer14 from './assets/A14.png';
+import Flayer16 from './assets/A16.png';
+
 
 export const links = [
   {
@@ -762,7 +769,6 @@ export const behance = [
     id: 3,
     img: Flayer3,
     title: 'Online Cosmetics Shop- Admin App',
-   
   },
 
   {
@@ -776,7 +782,6 @@ export const behance = [
     id: 5,
     img: Flayer5,
     title: 'Database Management| MySQL',
-   
   },
 
   {
@@ -803,6 +808,42 @@ export const behance = [
   {
     id: 9,
     img: Flayer9,
+    title: 'UI/UX of Baby Vaccination Management Application',
+   
+  },
+  {
+    id: 10,
+    img: Flayer10,
+    title: 'UI/UX of Baby Vaccination Management Application',
+   
+  },
+  {
+    id: 11,
+    img: Flayer11,
+    title: 'UI/UX of Baby Vaccination Management Application',
+   
+  },
+  {
+    id: 12,
+    img: Flayer12,
+    title: 'UI/UX of Baby Vaccination Management Application',
+   
+  },
+  {
+    id: 13,
+    img: Flayer13,
+    title: 'UI/UX of Baby Vaccination Management Application',
+   
+  },
+  {
+    id: 14,
+    img: Flayer14,
+    title: 'UI/UX of Baby Vaccination Management Application',
+   
+  },
+  {
+    id: 16,
+    img: Flayer16,
     title: 'UI/UX of Baby Vaccination Management Application',
    
   },
